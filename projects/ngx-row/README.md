@@ -1,24 +1,28 @@
 # NgxRow
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.14.
+## Demo
 
-## Code scaffolding
+[https://liangshen001.github.io/ngx-row-lib/](https://liangshen001.github.io/ngx-row-lib/)
 
-Run `ng generate component component-name --project ngx-row` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-row`.
-> Note: Don't forget to add `--project ngx-row` or else it will be added to the default project in your `angular.json` file. 
+## Install
+````
+npm i ngx-row -s
+````
 
-## Build
+## Usage
 
-Run `ng build ngx-row` to build the project. The build artifacts will be stored in the `dist/` directory.
+### import module
 
-## Publishing
+```
+import {NgxRowModule} from "ngx-row";
 
-After building your library with `ng build ngx-row`, go to the dist folder `cd dist/ngx-row` and run `npm publish`.
+@NgModule({
+  imports: [
+    NgxRowModule,
+    ...
+  ],
+  ...
+})
+export class AppModule { }
+```
 
-## Running unit tests
-
-Run `ng test ngx-row` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
