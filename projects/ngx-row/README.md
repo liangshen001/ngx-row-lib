@@ -1,5 +1,7 @@
 # NgxRow
 
+angular 10.x
+
 ## Demo
 
 [https://liangshen001.github.io/ngx-row-lib/](https://liangshen001.github.io/ngx-row-lib/)

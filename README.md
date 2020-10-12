@@ -1,6 +1,6 @@
-# NgxDesktopLib
+# NgxRowLib
 
-ngx-desktop demo project(angular cli)
+ngx-row demo project(angular cli)
 
 [NgxRow](./projects/ngx-row/README.md)
  
